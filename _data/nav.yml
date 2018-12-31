@@ -6,4 +6,6 @@
   
 - title: "RSS"
   href: "/feed.xml"
-  
+       
+- title: "Suscríbete al boletín"
+  external: "https://feedburner.google.com/fb/a/mailverify?uri=grottus&amp;loc=en_US"
