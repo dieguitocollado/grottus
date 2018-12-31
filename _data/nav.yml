@@ -4,3 +4,6 @@
 - title: "Archivo"
   href: "/a/"
   
+- title: "RSS"
+  href: "/feed.xml"
+  
