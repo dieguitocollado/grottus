@@ -1,0 +1,13 @@
+{% if page.header%}
+  <header role="banner">
+      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.header_xl }}" alt="{{ site.title }} banner image" title="{{ site.title }} banner image" class="center" style="max-width: 15%; height: auto;"></a>
+  </header>
+  
+  {% elsif site.header %}
+    <header role="banner">
+      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.header_xl }}" alt="{{ site.title }} banner image" title="{{ site.title }}" class="center" style="max-width: 15%; height: auto; margin-top: 2%; margin-bottom: 1%;"></a>
+    </header>
+  
+  {% else %}
+
+{% endif %}
