@@ -13,7 +13,7 @@
   
     a {
       color: $comic-nav-color;
-      font-size: 1em;
+      font-size: 2em;
       line-height: 30px;
       text-transform: uppercase;
     }
@@ -25,7 +25,7 @@
 
     nav>a>span[class^="icon-"], div[span*=" icon-"] {
       line-height: 30px;
-      font-size: 1em;
+      font-size: 2em;
     }
    
 }
@@ -67,27 +67,27 @@
   .previous-comic {
     width: 10%;
     margin-left: 5px;
-    font-size: 1em;
+    font-size: 0.4em;
   }
   
   .first-comic {
     width: 70%;
-    font-size: 1em; 
+    font-size: 0.4em; 
   }
   
   .comic-next { 
     width: 10%;
-    font-size: 1em;
+    font-size: 0.4em;
   }
   
   .first-archive {
     width: 70%;
-    font-size: 1em; 
+    font-size: 0.4em; 
   }
   
   .first-next {
     width: 10%;
-    font-size: 1em;
+    font-size: 0.4em;
   }
 }
 
