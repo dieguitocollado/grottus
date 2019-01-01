@@ -1,8 +1,0 @@
----
-layout: post
-title: "Mañana"
-date: 2019-12-31 10:30:00 +0100
-categories: a
----
-
-{% include figure.html src="g0.jpg" alt="Mañana" %}
