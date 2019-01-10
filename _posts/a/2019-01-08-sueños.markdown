@@ -1,0 +1,8 @@
+﻿---
+layout: post
+title: "Sueños escolares"
+date: 2019-01-08 08:30:00 +0100
+categories: a
+---
+
+{% include figure.html src="g2.png" alt="Sueños escolares" %}
