@@ -1,0 +1,8 @@
+﻿---
+layout: post
+title: "Deshaciendo la maleta"
+date: 2019-01-25 18:07:00 +0100
+categories: a
+---
+
+{% include figure.html src="g4.png" alt="Deshaciendo la maleta" %}
