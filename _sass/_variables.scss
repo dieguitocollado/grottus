@@ -4,8 +4,8 @@ $global-width: 1334px;
 // Base Colors
 $primary-color: #000000;
 $secondary-color: #000000;
-$complimentary-color: #fff;
-$body-bg: #fff;
+$complimentary-color: #ffffff;
+$body-bg: #ffffff;
 $body-font-color: #222;
 
 // Links
@@ -24,7 +24,7 @@ $navbar-height: 44px;
 $navbar-color: white;
 $navbar-text-color: $secondary-color;
 $navbar-hover-color: #222;
-$navbar-active-color: darken(#fff, 10%);
+$navbar-active-color: darken(#ffffff, 10%);
 $navbar-font-size: 1.0em;
 $navbar-font-family: "Open Sans", Helvetica, Arial, sans-serif;
 
@@ -37,7 +37,7 @@ $comic-nav-background: $primary-color;
 $comic-nav-height: 30px;
 $comic-border-color: $primary-color;
 $comic-border-width: 3px;
-$comic-nav-color: #fff;
+$comic-nav-color: #ffffff;
 $comic-nav-hover: $complimentary-color;
 $archive-border-color: $secondary-color;
 $archive-border-width: 1px;
