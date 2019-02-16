@@ -1,0 +1,8 @@
+﻿---
+layout: post
+title: "Aeger sum."
+date: 2019-02-08 09:30:00 +0100
+categories: a
+---
+
+{% include figure.html src="g6.png" alt="Aeger sum." %}
