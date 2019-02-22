@@ -52,13 +52,16 @@
 // Base styling for our arrows
 .icon-arrow-right:before {
 	content: "\e606";
+	color: white;
 }
 .icon-arrow-down:before {
 	content: "\e607";
+	color: white;
 }
 .icon-arrow-left:before {
 	content: "\e608";
 	margin-right: 10px;
+	color: white;
 }
 
 .icon-home:before {
@@ -134,7 +137,7 @@
 }
 
 a:hover .icon-arrow-down{
-  color: $comic-nav-hover;
+  color: white;
 }
 
 a:hover .icon-arrow-right{
