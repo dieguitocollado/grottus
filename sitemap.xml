@@ -17,7 +17,7 @@ sitemap: false
   {% endunless %}{% endfor %}
   {% for page in site.html_pages %}{% unless page.sitemap == false %}
   <url>
-    <loc>{{ page.url | replace:'/index.html', | prepend: site_url | uri_escape }}</loc>
+    <loc>{{ page.url | replace:'/index.html','/' | prepend: site_url | uri_escape }}</loc>
     {% if page.last_modified_at %}
     <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
     {% endif %}
@@ -26,7 +26,7 @@ sitemap: false
   {% for collection in site.collections %}{% unless collection.last.output == false or collection.output == false %}
   {% for doc in collection.last.docs %}{% unless doc.sitemap == false %}
   <url>
-    <loc>{{ doc.url | replace:'/index.html' | prepend: site_url | uri_escape }}</loc>
+    <loc>{{ doc.url | replace:'/index.html','/' | prepend: site_url | uri_escape }}</loc>
     {% if doc.last_modified_at %}
     <lastmod>{{ doc.last_modified_at | date_to_xmlschema }}</lastmod>
     {% endif %}
@@ -34,7 +34,7 @@ sitemap: false
   {% endunless %}{% endfor %}
   {% for doc in collection.docs %}{% unless doc.sitemap == false %}
     <url>
-      <loc>{{ doc.url | replace:'/index.html' | prepend: site_url | uri_escape }}</loc>
+      <loc>{{ doc.url | replace:'/index.html','/' | prepend: site_url | uri_escape }}</loc>
       {% if doc.last_modified_at %}
       <lastmod>{{ doc.last_modified_at | date_to_xmlschema }}</lastmod>
       {% endif %}
